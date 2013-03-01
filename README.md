@@ -9,7 +9,11 @@ Usage
 	
 
 ***
+**Requirements**
 
+* [Echo Nest Remix API](http://echonest.github.com/remix/)
+* [eyed3](http://eyed3.nicfit.net/) *For retrieving and manipulating metadata information*
+***
 **An Important Note**
 
 The Echo Nest API does not do local processing. It calculates the audio fingerprint, and either uploads it to the server if it has no record of it or draws the analysis from an earlier upload. Either way, 
